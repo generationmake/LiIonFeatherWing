@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "LiIonFeatherWing"
+Date "2020-10-15"
+Rev "0.1"
+Comp "generationmake"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -409,4 +409,6 @@ F 3 "" H 5850 6800 50  0000 C CNN
 	1    5650 6800
 	0    1    1    0   
 $EndComp
+Text Notes 500  650  0    50   ~ 0
+find project information on\nhttps://github.com/generationmake/LiIonFeatherWing
 $EndSCHEMATC
