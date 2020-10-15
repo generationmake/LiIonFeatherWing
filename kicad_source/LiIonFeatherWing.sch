@@ -297,4 +297,116 @@ F 3 "" H 1050 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 750  6450
+Wire Wire Line
+	4650 6800 5650 6800
+Text Label 4800 6800 0    50   ~ 0
+SERIAL_RX
+Text Label 4800 6700 0    50   ~ 0
+SERIAL_TX
+Wire Wire Line
+	4650 6600 5650 6600
+Wire Wire Line
+	4650 6500 5650 6500
+Text Label 4800 6600 0    50   ~ 0
+I2C_SCL
+Text Label 4800 6500 0    50   ~ 0
+I2C_SDA
+$Comp
+L power-supply:+3V3 #PWR09
+U 1 1 5F88D918
+P 5450 6200
+F 0 "#PWR09" H 5450 6050 50  0001 C CNN
+F 1 "+3V3" H 5465 6373 50  0000 C CNN
+F 2 "" H 5450 6200 50  0000 C CNN
+F 3 "" H 5450 6200 50  0000 C CNN
+	1    5450 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-supply:GND #PWR010
+U 1 1 5F88D922
+P 5550 6900
+F 0 "#PWR010" H 5550 6650 50  0001 C CNN
+F 1 "GND" H 5555 6727 50  0000 C CNN
+F 2 "" H 5550 6900 50  0000 C CNN
+F 3 "" H 5550 6900 50  0000 C CNN
+	1    5550 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 6300 5550 6300
+Wire Wire Line
+	5650 6400 5450 6400
+Wire Wire Line
+	5450 6400 5450 6200
+Wire Wire Line
+	4650 6700 5650 6700
+Wire Wire Line
+	5550 6300 5550 6900
+$Comp
+L mechanical-connectors:TEST_1P W1
+U 1 1 5F88F826
+P 5650 6300
+F 0 "W1" V 5650 6488 50  0000 L CNN
+F 1 "TEST_1P" V 5695 6488 50  0001 L CNN
+F 2 "wire_pads:SolderWirePad_single_0-8mmDrill" H 5850 6300 50  0001 C CNN
+F 3 "" H 5850 6300 50  0000 C CNN
+	1    5650 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L mechanical-connectors:TEST_1P W2
+U 1 1 5F88FE48
+P 5650 6400
+F 0 "W2" V 5650 6588 50  0000 L CNN
+F 1 "TEST_1P" V 5695 6588 50  0001 L CNN
+F 2 "wire_pads:SolderWirePad_single_0-8mmDrill" H 5850 6400 50  0001 C CNN
+F 3 "" H 5850 6400 50  0000 C CNN
+	1    5650 6400
+	0    1    1    0   
+$EndComp
+$Comp
+L mechanical-connectors:TEST_1P W3
+U 1 1 5F88FF81
+P 5650 6500
+F 0 "W3" V 5650 6688 50  0000 L CNN
+F 1 "TEST_1P" V 5695 6688 50  0001 L CNN
+F 2 "wire_pads:SolderWirePad_single_0-8mmDrill" H 5850 6500 50  0001 C CNN
+F 3 "" H 5850 6500 50  0000 C CNN
+	1    5650 6500
+	0    1    1    0   
+$EndComp
+$Comp
+L mechanical-connectors:TEST_1P W4
+U 1 1 5F89039D
+P 5650 6600
+F 0 "W4" V 5650 6788 50  0000 L CNN
+F 1 "TEST_1P" V 5695 6788 50  0001 L CNN
+F 2 "wire_pads:SolderWirePad_single_0-8mmDrill" H 5850 6600 50  0001 C CNN
+F 3 "" H 5850 6600 50  0000 C CNN
+	1    5650 6600
+	0    1    1    0   
+$EndComp
+$Comp
+L mechanical-connectors:TEST_1P W5
+U 1 1 5F890700
+P 5650 6700
+F 0 "W5" V 5650 6888 50  0000 L CNN
+F 1 "TEST_1P" V 5695 6888 50  0001 L CNN
+F 2 "wire_pads:SolderWirePad_single_0-8mmDrill" H 5850 6700 50  0001 C CNN
+F 3 "" H 5850 6700 50  0000 C CNN
+	1    5650 6700
+	0    1    1    0   
+$EndComp
+$Comp
+L mechanical-connectors:TEST_1P W6
+U 1 1 5F8908AE
+P 5650 6800
+F 0 "W6" V 5650 6988 50  0000 L CNN
+F 1 "TEST_1P" V 5695 6988 50  0001 L CNN
+F 2 "wire_pads:SolderWirePad_single_0-8mmDrill" H 5850 6800 50  0001 C CNN
+F 3 "" H 5850 6800 50  0000 C CNN
+	1    5650 6800
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
