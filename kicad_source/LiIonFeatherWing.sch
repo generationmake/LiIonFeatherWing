@@ -38,12 +38,12 @@ $EndComp
 $Comp
 L power-supply:+BATT #PWR07
 U 1 1 5F87A050
-P 6650 2650
-F 0 "#PWR07" H 6650 2500 50  0001 C CNN
-F 1 "+BATT" H 6665 2823 50  0000 C CNN
-F 2 "" H 6650 2650 50  0000 C CNN
-F 3 "" H 6650 2650 50  0000 C CNN
-	1    6650 2650
+P 6650 2450
+F 0 "#PWR07" H 6650 2300 50  0001 C CNN
+F 1 "+BATT" H 6665 2623 50  0000 C CNN
+F 2 "" H 6650 2450 50  0000 C CNN
+F 3 "" H 6650 2450 50  0000 C CNN
+	1    6650 2450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -79,18 +79,10 @@ F 3 "" H 5750 2600 50  0000 C CNN
 	1    5750 2600
 	1    0    0    1   
 $EndComp
-NoConn ~ 6250 2500
 Wire Wire Line
 	5250 2600 4300 2600
 Wire Wire Line
-	6650 2650 6650 2700
-Wire Wire Line
 	6650 3050 6650 3100
-Wire Wire Line
-	6250 2700 6650 2700
-Connection ~ 6650 2700
-Wire Wire Line
-	6650 2700 6650 2750
 Wire Wire Line
 	3000 4800 4000 4800
 Wire Wire Line
@@ -251,4 +243,58 @@ NoConn ~ 4300 3200
 NoConn ~ 4300 3300
 NoConn ~ 4300 3400
 NoConn ~ 4300 3500
+Wire Wire Line
+	6650 2450 6650 2500
+Wire Wire Line
+	6250 2500 6650 2500
+Connection ~ 6650 2500
+Wire Wire Line
+	6650 2500 6650 2750
+NoConn ~ 6250 2700
+$Comp
+L devices:Label L2
+U 1 1 5F87C39C
+P 750 7550
+F 0 "L2" H 978 7656 60  0000 L CNN
+F 1 "Label" H 978 7550 60  0000 L CNN
+F 2 "labels:generationmake_logo" H 978 7444 60  0000 L CNN
+F 3 "" H 750 7550 60  0000 C CNN
+	1    750  7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L devices:Label L1
+U 1 1 5F87CDB9
+P 750 7150
+F 0 "L1" H 978 7256 60  0000 L CNN
+F 1 "Label" H 978 7150 60  0000 L CNN
+F 2 "labels:generationmake_small_solder" H 978 7044 60  0000 L CNN
+F 3 "" H 750 7150 60  0000 C CNN
+	1    750  7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L MECH_mounting-holes:MHP_3.2_5.8 MECH2
+U 1 1 5F87D203
+P 1050 6700
+F 0 "MECH2" H 1178 6746 50  0000 L CNN
+F 1 "MHP_3.2_5.8" H 1178 6655 50  0000 L CNN
+F 2 "MECH_mounting_holes:MHP_3.2_5.8" H 950 6750 50  0001 C CNN
+F 3 "" H 1050 6700 50  0001 C CNN
+	1    1050 6700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 750  6700
+$Comp
+L MECH_mounting-holes:MHP_3.2_5.8 MECH1
+U 1 1 5F87DA96
+P 1050 6450
+F 0 "MECH1" H 1178 6496 50  0000 L CNN
+F 1 "MHP_3.2_5.8" H 1178 6405 50  0000 L CNN
+F 2 "MECH_mounting_holes:MHP_3.2_5.8" H 950 6500 50  0001 C CNN
+F 3 "" H 1050 6450 50  0001 C CNN
+	1    1050 6450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 750  6450
 $EndSCHEMATC
